@@ -95,7 +95,7 @@ class App extends React.Component {
             </Form.Item>
           </Form>
         </Modal>
-        <Layout className="bg-white justify-items-center ">
+        <Layout className="justify-items-center ">
           <Header>
             <div className="flex justify-between">
               <div>
@@ -110,7 +110,7 @@ class App extends React.Component {
           </Header>
   
           <Content className="content-body flex justify-center">
-            <div className="flex-1 max-w-md">
+            <div className="flex-1 md:max-w-xl max-w-md">
               <div id="new-post" className="bg-white p-2 rounded-md shadow-md my-2">
                 <h3>Create new post</h3>
                 <NewPost username={this.state.username} addLocalPost={this.addLocalPost}/>
